@@ -31,9 +31,6 @@ const IsDevice = (() => {
         return ua.match(/Opera Mini/i)
       },
   
-      /**
-       * Any Device
-       */
       any() {
         return (
           IsDevice.Android() ||
@@ -73,8 +70,7 @@ function useEventListener(eventName, handler, element = document) {
  * Cursor Core
  * Replaces the native cursor with a custom animated cursor, consisting
  * of an inner and outer dot that scale inversely based on hover or click.
- *
- * @author Stephen Scaff (github.com/stephenscaff)
+
  *
  * @param {string} color - rgb color value
  * @param {number} outerAlpha - level of alpha transparency for color
@@ -90,7 +86,7 @@ function useEventListener(eventName, handler, element = document) {
 function CursorCore({
     outerStyle,
     innerStyle,
-    color = '186, 28, 255',
+    color = '199, 70, 255, 1',
     outerAlpha = 0.3,
     innerSize = 8,
     outerSize = 8,
