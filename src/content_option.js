@@ -1,3 +1,6 @@
+import ReactMovieApp from "./components/images/ReactMovieApp.png";
+import ReactMovies from "./components/images/ReactMovies.png";
+
 const logotext = "MASON";
 const meta = {
     title: "Mason Porter",
@@ -77,7 +80,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: `${ReactMovies}`,
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -141,13 +144,13 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "masonrwporter@gmail.com",
-    YOUR_FONE: "(250)739-0870",
+    YOUR_FONE: "250-739-0870",
     description: "Thank you for your interest in connecting with me. If you have any questions or are interested in discussing potential collaborations, I am readily available and look forward to hearing from you. Please feel free to contact me via email, or Phone. Your inquiry is important to me, and I appreciate your time and consideration.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_84z9kgx",
+    YOUR_TEMPLATE_ID: "template_4u3j8om",
+    YOUR_USER_ID: "YGp1D_85LKzrs4_rO",
 };
 
 const socialprofils = {
