@@ -1,5 +1,6 @@
-import ReactMovieApp from "./components/images/ReactMovieApp.png";
+
 import ReactMovies from "./components/images/ReactMovies.png";
+import MPMoviesBanner from "./components/images/MPMoviesBanner.png";
 
 const logotext = "MASON";
 const meta = {
@@ -66,23 +67,23 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
+        title: "Add Services Later",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Mobile Apps",
+        title: "Add Services Later",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Wordpress Design",
+        title: "Add Services Later",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
 
 const dataportfolio = [{
-        img: `${ReactMovies}`,
+        img: `${MPMoviesBanner}`,
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "/mpmovies",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
