@@ -1,3 +1,5 @@
+// Imports for MPMovies project
+
 import HomePage from "../../../components/images/mpmovies/HomePage.png";
 import About_MPMovies from "../../../components/images/mpmovies/About_MPMovies.png";
 import Movie_Details from "../../../components/images/mpmovies/Movie_Details.png";
@@ -10,4 +12,5 @@ import aboutWire from "../../../components/images/mpmovies/aboutWire.png";
 import favouritesWire from "../../../components/images/mpmovies/favouritesWire.png";
 import moviepopupWire from "../../../components/images/mpmovies/moviepopupWire.png";
 
+// Export all imports
 export { HomePage, About_MPMovies, Movie_Details, Top_Rated_Movies, Upcoming_movies, now_playing_movies, IphoneColorScheme, mainmovielistWire, favouritesWire, aboutWire, moviepopupWire };
