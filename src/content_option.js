@@ -82,7 +82,7 @@ const services = [{
 
 const dataportfolio = [{
         img: `${MPMoviesBanner}`,
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        desctiption: "MPMovies React Movie Database Application",
         link: "/mpmovies",
     },
     {
