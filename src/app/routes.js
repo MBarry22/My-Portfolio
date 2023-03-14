@@ -5,7 +5,8 @@ import { Home } from "../pages/home";
 import { Portfolio } from "../pages/portfolio";
 import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
-import { MPMovies } from "../pages/portfolio/projects/MPMovies";
+import { MPMovies } from "../pages/portfolio/MPMovies";
+import { BCITDaily } from "../pages/portfolio/BCITDaily";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
@@ -26,6 +27,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path='/mpmovies' element={<MPMovies />} />
+        <Route path='/bcitdaily' element={<BCITDaily />} />
         <Route path="*" element={<Home />} />
         
       </Routes>

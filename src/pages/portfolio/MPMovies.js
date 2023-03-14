@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
-import { dataportfolio, meta } from "../../../content_option";
+import { dataportfolio, meta } from "../../content_option";
 import {HomePage, About_MPMovies, Movie_Details, Top_Rated_Movies, Upcoming_movies, now_playing_movies,
-        IphoneColorScheme, mainmovielistWire, favouritesWire, aboutWire, moviepopupWire} from  "../projects/imports.js";
+        IphoneColorScheme, mainmovielistWire, favouritesWire, aboutWire, moviepopupWire} from  "./imports.js";
 
 
 export const MPMovies = () => {
@@ -108,6 +108,7 @@ export const MPMovies = () => {
           <p>
             Overall, the MPMovies project has equipped me with hands-on experience in React JS development and API integration, which I can apply to future projects. I look forward to utilizing this knowledge to tackle new and exciting challenges in software development.
           </p>
+          <a href='https://mbarry22.github.io/React-Movie-App/'>Live Project!</a>
         </div>
         {/* Design Choices section */}
         <Row className="my-5 pt-md-3">
