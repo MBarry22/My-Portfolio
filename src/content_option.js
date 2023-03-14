@@ -1,6 +1,7 @@
 
 import ReactMovies from "./components/images/ReactMovies.png";
 import MPMoviesBanner from "./components/images/MPMoviesBanner.png";
+import BCITDailyNewsBanner  from "./components/images/bcitdaily/BCITDailyNewsBanner.png";
 
 const logotext = "MASON";
 const meta = {
@@ -86,7 +87,7 @@ const dataportfolio = [{
         link: "/mpmovies",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "https://picsum.photos/400/?grayscale",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -101,9 +102,9 @@ const dataportfolio = [{
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${BCITDailyNewsBanner}`,
+        desctiption: "BCIT Daily News Website",
+        link: "/bcitdaily",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
