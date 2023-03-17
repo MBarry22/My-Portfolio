@@ -2,6 +2,7 @@
 import ReactMovies from "./components/images/ReactMovies.png";
 import MPMoviesBanner from "./components/images/MPMoviesBanner.png";
 import BCITDailyNewsBanner  from "./components/images/bcitdaily/BCITDailyNewsBanner.png";
+import AudioEngineClone from "./components/images/audioengineclone/AudioEngineClone.png";
 
 const logotext = "MASON";
 const meta = {
@@ -16,7 +17,7 @@ const introdata = {
         second: "Full Stack Development",
         third: "BCIT Alumni 2023",
     },
-    description: "Quote Of The Day -> What if it turns out better than you could ever imagine?",
+    description: "Quote Of The Day → What if it turns out better than you could ever imagine?",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
@@ -123,9 +124,9 @@ const dataportfolio = [{
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: `${AudioEngineClone}`,
+        desctiption: "Audio Engine Clone. EDUCATIONAL PROJECT",
+        link: "/audioengineclone",
     },
     {
         img: "https://picsum.photos/400/550/?grayscale",
