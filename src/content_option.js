@@ -1,8 +1,8 @@
 
-import ReactMovies from "./components/images/ReactMovies.png";
+import FoodScapeBanner from "./components/images/FoodScapeBanner.png";
 import MPMoviesBanner from "./components/images/MPMoviesBanner.png";
 import BCITDailyNewsBanner  from "./components/images/bcitdaily/BCITDailyNewsBanner.png";
-import AudioEngineClone from "./components/images/audioengineclone/AudioEngineClone.png";
+import AudioEngineClone from "./components/images/AudioEngineClone.png";
 
 const logotext = "MASON";
 const meta = {
@@ -82,25 +82,38 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
+        img: `${FoodScapeBanner}`,
+        desctiption: "FoodScape.",
+        link: "/foodscape",
+    },
+    {
         img: `${MPMoviesBanner}`,
         desctiption: "MPMovies React Movie Database Application",
         link: "/mpmovies",
     },
+
     {
         img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        desctiption: "FoodScape.",
+        link: "/foodscape",
+    },
+    {
+        img: `${AudioEngineClone}`,
+        desctiption: "Audio Engine Clone. EDUCATIONAL PROJECT",
+        link: "/audioengineclone",
+    },
+
+    {
+        img: "https://picsum.photos/400/?grayscale",
+        desctiption: "FoodScape.",
+        link: "/foodscape",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        desctiption: "FoodScape.",
+        link: "/foodscape",
     },
     {
         img: `${BCITDailyNewsBanner}`,
@@ -108,41 +121,16 @@ const dataportfolio = [{
         link: "/bcitdaily",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: `${AudioEngineClone}`,
-        desctiption: "Audio Engine Clone. EDUCATIONAL PROJECT",
-        link: "/audioengineclone",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/?grayscale",
+        desctiption: "FoodScape.",
+        link: "/foodscape",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        desctiption: "FoodScape.",
+        link: "/foodscape",
     },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+
 ];
 
 const contactConfig = {

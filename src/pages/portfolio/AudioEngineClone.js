@@ -8,7 +8,7 @@ import { AudioEngineClone1, AudioEngineClone2, AudioEngineClone3, AudioEngineClo
 
 
 export const AudioEngineClone = () => {
-  const projectEight = dataportfolio[8];
+  const fourthProject = dataportfolio[3];
 
   // Carousel Styles
   const carouselStyles = {
@@ -60,7 +60,7 @@ export const AudioEngineClone = () => {
         <div style={carouselStyles}>
       <Carousel interval={2000} pauseOnHover={false}>
         <Carousel.Item>
-          <img src={projectEight.img} alt="BCIT Daily News" style={imageStyles} />
+          <img src={fourthProject.img} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
           <img src={AudioEngineClone1} alt="BCIT Daily News" style={imageStyles} />
@@ -94,7 +94,7 @@ export const AudioEngineClone = () => {
         </Carousel.Item>
       </Carousel>
       <div style={contentStyles}>
-        <p>{projectEight.desctiption}</p>
+        <p>{fourthProject.desctiption}</p>
         <p style={audioEnginestuff}>
         <strong>Please note:</strong> The content and images on this webpage are the <strong>exclusive intellectual property</strong> of Audioengine, and I have <strong>no affiliation</strong> with the company. Audioengine retains full ownership and copyright of all material on this webpage. This webpage has been created solely for <strong>educational purposes</strong> and may not be used for any other purposes. Please be advised that I am <strong>not employed or endorsed</strong> by Audioengine.
         </p>
