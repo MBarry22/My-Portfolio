@@ -8,6 +8,7 @@ import { About } from "../pages/about";
 import { MPMovies } from "../pages/portfolio/MPMovies";
 import { BCITDaily } from "../pages/portfolio/BCITDaily";
 import { AudioEngineClone } from "../pages/portfolio/AudioEngineClone";
+import { FoodScape } from "../pages/portfolio/FoodScape";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
@@ -30,6 +31,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path='/mpmovies' element={<MPMovies />} />
         <Route path='/bcitdaily' element={<BCITDaily />} />
         <Route path='/audioengineclone' element={<AudioEngineClone />} />
+        <Route path='/foodscape' element={<FoodScape />} />
         <Route path="*" element={<Home />} />
         
       </Routes>

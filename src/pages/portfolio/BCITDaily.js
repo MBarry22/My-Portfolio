@@ -7,7 +7,7 @@ import {BCITDaily1, BCITDaily2, BCITDaily3, BCITDaily4, BCITDaily5, BCITDaily6, 
 
 
 export const BCITDaily = () => {
-  const fifthProject = dataportfolio[4];
+  const seventhProject = dataportfolio[6];
 
   // Carousel Styles
   const carouselStyles = {
@@ -57,7 +57,7 @@ export const BCITDaily = () => {
         <div style={carouselStyles}>
       <Carousel interval={2000} pauseOnHover={false}>
         <Carousel.Item>
-          <img src={fifthProject.img} alt="BCIT Daily News" style={imageStyles} />
+          <img src={seventhProject.img} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
           <img src={BCITDaily1} alt="BCIT Daily News" style={imageStyles} />
@@ -85,7 +85,7 @@ export const BCITDaily = () => {
         </Carousel.Item>
       </Carousel>
       <div style={contentStyles}>
-        <p>{fifthProject.desctiption}</p>
+        <p>{seventhProject.desctiption}</p>
       </div>
     </div>
         

@@ -8,7 +8,7 @@ import {HomePage, About_MPMovies, Movie_Details, Top_Rated_Movies, Upcoming_movi
 
 
 export const MPMovies = () => {
-  const firstProject = dataportfolio[0];
+  const secondProject = dataportfolio[1];
 
   // Carousel Styles
   const carouselStyles = {
@@ -58,7 +58,7 @@ export const MPMovies = () => {
         <div style={carouselStyles}>
       <Carousel interval={2000} pauseOnHover={false}>
         <Carousel.Item>
-          <img src={firstProject.img} alt="MPMovies Project" style={imageStyles} />
+          <img src={secondProject.img} alt="MPMovies Project" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
           <img src={HomePage} alt="MPMovies Project" style={imageStyles} />
@@ -80,7 +80,7 @@ export const MPMovies = () => {
         </Carousel.Item>
       </Carousel>
       <div style={contentStyles}>
-        <p>{firstProject.desctiption}</p>
+        <p>{secondProject.desctiption}</p>
       </div>
     </div>
         
