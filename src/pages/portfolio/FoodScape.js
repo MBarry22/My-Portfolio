@@ -188,6 +188,24 @@ export const FoodScape = () => {
   <p>Overall, we are satisfied with the design of FoodScape as we believe it effectively captures the essence of a modern festival website while remaining user-friendly and visually appealing. However, we are always open to feedback and improvements to ensure that our users have the best experience possible.</p>
   <br />
 
+  <Row className="my-5 pt-md-3">
+          <Col lg="8">
+            <h1 className="display-4 mb-4">Video Walkthrough</h1>
+            <hr className="t_border my-4 ml-0" />
+          </Col>
+        </Row>
+        <div className="content">
+  <iframe className="mb-5" width="100%" height="500px" 
+    src="https://www.youtube.com/embed/B0jUoI_2dFQ" 
+    title="YouTube video player" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen
+  >
+  </iframe>
+</div>
+  
+
+
           {/* Wireframes section 
           <div className="content">
             <h2 className="mb-4">Wireframes</h2>

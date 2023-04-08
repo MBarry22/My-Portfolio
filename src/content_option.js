@@ -22,7 +22,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "abit about myself",
     aboutme: "As a BCIT Alumni with a focus on Software Systems Development and Full Stack Development, I possess a strong technical background and a passion for creating projects. My curiosity about how things work fuels my persistence and motivation, driving me to explore complex systems and push the boundaries of what's possible. When I'm not working on software projects, I love spending time outdoors, exploring the natural beauty of Vancouver Island through hiking, caving, and mine exploration. These experiences help me maintain a healthy work-life balance and inspire me to create innovative solutions to technical challenges.",
 };
 const worktimeline = [{
@@ -68,17 +68,17 @@ const skills = [{
     },
 ];
 
-const services = [{
-        title: "Add Services Later",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const SideProjects = [{
+        title: "MP Crypto",
+        description: "MP Crypto is a cryptocurrency tracker that allows users to track the price of their favorite cryptocurrencies. Users can also view the latest news and tweets related to their favorite cryptocurrencies.",
     },
     {
-        title: "Add Services Later",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "MP Cargo",
+        description: "MP Cargo is a cargo tracking application that allows users to track the status of their cargo. Users can also view the latest news and tweets related to their cargo.",
     },
     {
-        title: "Add Services Later",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Sketch Remix",
+        description: "Sketch Remix is a web application that allows users to create artwork to which other artists can remix and create their own artwork. This is a project that is being created by Michael Yamauchi and help from myself.",
     },
 ];
 
@@ -93,7 +93,6 @@ const dataportfolio = [
         desctiption: "MPMovies React Movie Database Application",
         link: "/mpmovies",
     },
-
     {
         img: "https://picsum.photos/400/?grayscale",
         desctiption: "FoodScape.",
@@ -156,7 +155,7 @@ export {
     dataportfolio,
     worktimeline,
     skills,
-    services,
+    SideProjects,
     introdata,
     contactConfig,
     socialprofils,
