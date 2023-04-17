@@ -5,6 +5,8 @@ import BCITDailyNewsBanner  from "./components/images/bcitdaily/BCITDailyNewsBan
 import AudioEngineClone from "./components/images/AudioEngineClone.png";
 import GPTCloneChatApp from "./components/images/GPTCloneChatApp.png";
 import EcoMute from "./components/images/EcoMute.png";
+import EcoMute2 from "./components/images/EcoMute2.png";
+import MPBanking from "./components/images/MPBanking.png";
 
 const logotext = "MASON";
 const meta = {
@@ -122,7 +124,7 @@ const dataportfolio = [
         link: "/bcitdaily",
     },
     {
-        img: `${BCITDailyNewsBanner}`,
+        img: `${MPBanking}`,
         desctiption: "Bank Management App.",
         link: "/bankmanagment",
     },
