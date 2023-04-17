@@ -3,6 +3,8 @@ import FoodScapeBanner from "./components/images/FoodScapeBanner.png";
 import MPMoviesBanner from "./components/images/MPMoviesBanner.png";
 import BCITDailyNewsBanner  from "./components/images/bcitdaily/BCITDailyNewsBanner.png";
 import AudioEngineClone from "./components/images/AudioEngineClone.png";
+import GPTCloneChatApp from "./components/images/GPTCloneChatApp.png";
+import EcoMute from "./components/images/EcoMute.png";
 
 const logotext = "MASON";
 const meta = {
@@ -94,9 +96,9 @@ const dataportfolio = [
         link: "/mpmovies",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "FoodScape.",
-        link: "/foodscape",
+        img: `${EcoMute}`,
+        desctiption: "EcoMute.",
+        link: "/ecomute",
     },
     {
         img: `${AudioEngineClone}`,
@@ -105,9 +107,9 @@ const dataportfolio = [
     },
 
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "FoodScape.",
-        link: "/foodscape",
+        img: `${GPTCloneChatApp}`,
+        desctiption: "GPT Clone Chat Application With SST.",
+        link: "/gptchatapp",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
@@ -120,9 +122,9 @@ const dataportfolio = [
         link: "/bcitdaily",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "FoodScape.",
-        link: "/foodscape",
+        img: `${BCITDailyNewsBanner}`,
+        desctiption: "Bank Management App.",
+        link: "/bankmanagment",
     },
     {
         img: "https://picsum.photos/400/?grayscale",

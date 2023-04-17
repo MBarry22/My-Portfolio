@@ -10,6 +10,9 @@ import { BCITDaily } from "../pages/portfolio/BCITDaily";
 import { AudioEngineClone } from "../pages/portfolio/AudioEngineClone";
 import { FoodScape } from "../pages/portfolio/FoodScape";
 import { Socialicons } from "../components/socialicons";
+import { GPTChatApp } from "../pages/portfolio/GPTClone-Chat-App";
+import { BankManagment } from "../pages/portfolio/BankManagment";
+import { EcoMute } from "../pages/portfolio/EcoMute";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 const AnimatedRoutes = withRouter(({ location }) => (
@@ -32,6 +35,9 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path='/bcitdaily' element={<BCITDaily />} />
         <Route path='/audioengineclone' element={<AudioEngineClone />} />
         <Route path='/foodscape' element={<FoodScape />} />
+        <Route path='/gptchatapp' element={<GPTChatApp />} />
+        <Route path='/bankmanagment' element={<BankManagment />} />
+        <Route path='/ecomute' element={<EcoMute />} />
         <Route path="*" element={<Home />} />
         
       </Routes>
