@@ -61,6 +61,9 @@ import FoodScape16 from "../../components/images/foodscape/FoodScape16.png";
 import FoodScapeWireFrame from "../../components/images/foodscape/FoodScapeWireFrame.png";
 
 
+// Imports for GPT Clone Chat App Project
+import GPTCloneChatApp from "../../components/images/GPTCloneChatApp.png";
+
 
 
 // Export all imports
@@ -69,5 +72,8 @@ export { HomePage, About_MPMovies, Movie_Details, Top_Rated_Movies, Upcoming_mov
     BCITDaily, BCITDailyNewsBanner, BCITDaily1, BCITDaily2, BCITDaily3, BCITDaily4, BCITDaily5, BCITDaily6, BCITDaily7, BCITDaily8,
 AudioEngineClone1, AudioEngineClone2, AudioEngineClone3, AudioEngineClone4, AudioEngineClone5, AudioEngineClone6, AudioEngineClone7, AudioEngineClone8, AudioEngineClone9, AudioEngineClone10,
 
-FoodScape1, FoodScape2, FoodScape3, FoodScape4, FoodScape5, FoodScape6, FoodScape7, FoodScape8, FoodScape9, FoodScape10, FoodScape11, FoodScape12, FoodScape13, FoodScape14, FoodScape15, FoodScape16, FoodScapeWireFrame};
+FoodScape1, FoodScape2, FoodScape3, FoodScape4, FoodScape5, FoodScape6, FoodScape7, FoodScape8, FoodScape9, FoodScape10, FoodScape11, FoodScape12, FoodScape13, FoodScape14, FoodScape15, FoodScape16, FoodScapeWireFrame,
+GPTCloneChatApp
+};
+
 
