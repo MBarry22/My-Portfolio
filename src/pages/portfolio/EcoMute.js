@@ -3,7 +3,7 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col, Carousel } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
-import {BCITDaily1, BCITDaily2, BCITDaily3, BCITDaily4, BCITDaily5, BCITDaily6, BCITDaily7, BCITDaily8, BCITDailyNewsBanner} from  "./imports.js";
+import { EcoMute1, EcoMute2, EcoMute3, EcoMute4, EcoMute5, EcoMute6, EcoMute7, EcoMute8, EcoMute9, EcoMute10, EcoMute11, EcoMute12, EcoMute13, EcoMute14} from  "./imports.js";
 
 
 export const EcoMute = () => {
@@ -60,28 +60,46 @@ export const EcoMute = () => {
           <img src={thirdProject.img} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={BCITDaily1} alt="BCIT Daily News" style={imageStyles} />
+          <img src={EcoMute1} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={BCITDaily2} alt="BCIT Daily News" style={imageStyles} />
+          <img src={EcoMute2} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={BCITDaily3} alt="BCIT Daily News" style={imageStyles} />
+          <img src={EcoMute3} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={BCITDaily4} alt="BCIT Daily News" style={imageStyles} />
+          <img src={EcoMute4} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={BCITDaily5} alt="BCIT Daily News" style={imageStyles} />
+          <img src={EcoMute5} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={BCITDaily6} alt="BCIT Daily News" style={imageStyles} />
+          <img src={EcoMute6} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={BCITDaily7} alt="BCIT Daily News" style={imageStyles} />
+          <img src={EcoMute7} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
         <Carousel.Item>
-          <img src={BCITDaily8} alt="BCIT Daily News" style={imageStyles} />
+          <img src={EcoMute8} alt="BCIT Daily News" style={imageStyles} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={EcoMute9} alt="BCIT Daily News" style={imageStyles} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={EcoMute10} alt="BCIT Daily News" style={imageStyles} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={EcoMute11} alt="BCIT Daily News" style={imageStyles} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={EcoMute12} alt="BCIT Daily News" style={imageStyles} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={EcoMute13} alt="BCIT Daily News" style={imageStyles} />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img src={EcoMute14} alt="BCIT Daily News" style={imageStyles} />
         </Carousel.Item>
       </Carousel>
       <div style={contentStyles}>
@@ -136,22 +154,22 @@ export const EcoMute = () => {
         {/* Design & Color Scheme section */}
         <div className="content">
           <h2 className="mb-4">Design and Color Scheme</h2>
-          <p className="mb-5">For the MPMovies project, I aimed to create a modern design that is easy to navigate and visually appealing. To achieve this, I chose to use a monochromatic color scheme with various shades of blue and gray, as I believed these colors would work well with the movie-themed content of the site.</p>
+          <p className="mb-5">For the EcoMute project, we aimed to create a simple and modern design that is easy to navigate and visually appealing. Our primary designer used a dark background with opacity on certain elements to create a modern feel. We searched the web for inspiration and decided to add shades of green and blue to our color scheme to align with our theme of helping fight climate change and CO2 emissions.</p>
           <div className="d-flex justify-content-center mb-5">
-            <img src={BCITDailyNewsBanner} alt="Placeholder Image 1" className="img-fluid rounded" />
+            <img src={EcoMute1} alt="EcoMute Banner" className="img-fluid rounded" />
           </div>
-          <p className="mb-5">To create a sense of visual hierarchy and structure, I utilized different font sizes and weights for headings and body text. Additionally, I incorporated plenty of white space throughout the design to allow content to stand out and create a sense of balance.</p>
+          <p className="mb-5">To create a sense of hierarchy and structure, we utilized different font sizes and weights for headings and body text. We also incorporated plenty of white space throughout the design to allow content to stand out and create a sense of balance.</p>
           <div className="row mb-5">
             <div className="col-md-4 d-flex justify-content-center mb-4">
-              <img src={BCITDailyNewsBanner} alt="Placeholder Image 2" className="img-fluid rounded" />
+              <img src={EcoMute2} alt="EcoMute Home Page" className="img-fluid rounded" />
             </div>
             <div className="col-md-4 d-flex justify-content-center mb-4">
-              <img src={BCITDailyNewsBanner} alt="Placeholder Image 3" className="img-fluid rounded" />
+              <img src={EcoMute3} alt="EcoMute Transit Page" className="img-fluid rounded" />
             </div>
             <div className="col-md-4 d-flex justify-content-center mb-4">
-              <img src={BCITDailyNewsBanner} alt="Placeholder Image 4" className="img-fluid rounded" />
+              <img src={EcoMute4} alt="EcoMute Carbon Page" className="img-fluid rounded" />
             </div>
-            <p>Overall, I am satisfied with the outcome of the design, as I believe it effectively captures the essence of a modern movie website while remaining user-friendly and visually appealing.</p>
+            <p>Overall, we are satisfied with the outcome of the design, as we believe it effectively captures the essence of a modern website while remaining user-friendly and visually appealing. Our design aligns with our mission to promote awareness and action towards reducing carbon emissions and fighting climate change.</p>
           </div>
 
           <Row className="my-5 pt-md-3">

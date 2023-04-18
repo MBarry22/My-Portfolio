@@ -66,6 +66,25 @@ import GPTCloneChatApp from "../../components/images/GPTCloneChatApp.png";
 
 
 
+// Imports for EcoMute Project
+import EcoMute1 from "../../components/images/EcoMute/EcoMute1.png";
+import EcoMute2 from "../../components/images/EcoMute/EcoMute2.png";
+import EcoMute3 from "../../components/images/EcoMute/EcoMute3.png";
+import EcoMute4 from "../../components/images/EcoMute/EcoMute4.png";
+import EcoMute5 from "../../components/images/EcoMute/EcoMute5.png";
+import EcoMute6 from "../../components/images/EcoMute/EcoMute6.png";
+import EcoMute7 from "../../components/images/EcoMute/EcoMute7.png";
+import EcoMute8 from "../../components/images/EcoMute/EcoMute8.png";
+import EcoMute9 from "../../components/images/EcoMute/EcoMute9.png";
+import EcoMute10 from "../../components/images/EcoMute/EcoMute10.png";
+import EcoMute11 from "../../components/images/EcoMute/EcoMute11.png";
+import EcoMute12 from "../../components/images/EcoMute/EcoMute12.png";
+import EcoMute13 from "../../components/images/EcoMute/EcoMute13.png";
+import EcoMute14 from "../../components/images/EcoMute/EcoMute14.png";
+
+
+
+
 // Export all imports
 export { HomePage, About_MPMovies, Movie_Details, Top_Rated_Movies, Upcoming_movies, now_playing_movies, IphoneColorScheme, mainmovielistWire, favouritesWire, aboutWire, moviepopupWire, 
     
@@ -73,7 +92,9 @@ export { HomePage, About_MPMovies, Movie_Details, Top_Rated_Movies, Upcoming_mov
 AudioEngineClone1, AudioEngineClone2, AudioEngineClone3, AudioEngineClone4, AudioEngineClone5, AudioEngineClone6, AudioEngineClone7, AudioEngineClone8, AudioEngineClone9, AudioEngineClone10,
 
 FoodScape1, FoodScape2, FoodScape3, FoodScape4, FoodScape5, FoodScape6, FoodScape7, FoodScape8, FoodScape9, FoodScape10, FoodScape11, FoodScape12, FoodScape13, FoodScape14, FoodScape15, FoodScape16, FoodScapeWireFrame,
-GPTCloneChatApp
+GPTCloneChatApp,
+
+EcoMute1, EcoMute2, EcoMute3, EcoMute4, EcoMute5, EcoMute6, EcoMute7, EcoMute8, EcoMute9, EcoMute10, EcoMute11, EcoMute12, EcoMute13, EcoMute14
 };
 
 
