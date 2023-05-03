@@ -124,7 +124,7 @@ export const FoodScape = () => {
         </Row>
         {/* Tech Stack section */}
         <div className="content">
-          <h2>Tech Stack</h2>
+        <h2>Technology Stack</h2>
           <p>
             Our team of five developers, including myself (Mason), Renz, Scott, Kiriti, and Mario, built FoodScape using a combination of technologies. We used C# as our primary programming language and built the application on the .NET 7 framework. We incorporated the GoogleMaps API to enable location-based search functionality, and we used the MVC architecture to organize our code. Our database management system was MS SQL, and we integrated PayPal for payment processing. To handle client-side interactivity, we used JavaScript and JQuery, while HTML and CSS were used to structure and style the user interface. We utilized BootStrap for responsive design, and we implemented SendGrid for email notifications and ReCaptcha for security purposes.
           </p>

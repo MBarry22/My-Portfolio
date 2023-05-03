@@ -124,7 +124,7 @@ export const GPTChatApp= () => {
         </Row>
         {/* Tech Stack section */}
         <div className="content">
-          <h2>Tech Stack</h2>
+        <h2>Technology Stack</h2>
           <p>
           As the sole developer of the "GPT Clone Chat App," I utilized a range of technologies to create a robust and efficient system. The application was built using AWS Serverless Application Model (SAM) with IAM authentication to ensure secure and seamless deployment. For the frontend, I chose to use React, a popular and powerful JavaScript library, to create a responsive and user-friendly interface. To store user data and chat logs, I implemented PostgreSQL and CockroachDB, which offer excellent performance and scalability.
 

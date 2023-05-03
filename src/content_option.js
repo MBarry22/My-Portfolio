@@ -18,7 +18,7 @@ const introdata = {
     title: "I'm Mason Porter",
     animated: {
         first: "Jr. Software Developer",
-        second: "Full Stack Development",
+        second: "Full Stack Developer",
         third: "BCIT Alumni 2023",
     },
     description: "Quote Of The Day → What if it turns out better than you could ever imagine?",

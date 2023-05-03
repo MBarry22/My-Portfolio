@@ -98,7 +98,7 @@ export const BCITDaily = () => {
         </Row>
         {/* Tech Stack section */}
         <div className="content">
-          <h2>Tech Stack</h2>
+        <h2>Technology Stack</h2>
           <p>
             Our team of four developers, including myself, Renz, Scott, and Brayden, built the BCIT Daily News homepage using ReactJS. Despite the original plan of using only HTML, CSS, and JavaScript, we decided to take on the challenge of building the site in ReactJS, which was approved by our professors. This decision allowed us to gain valuable experience in ReactJS development, which is a highly sought-after skill in the industry.
           </p>

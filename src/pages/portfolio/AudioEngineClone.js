@@ -110,7 +110,7 @@ export const AudioEngineClone = () => {
         </Row>
         {/* Tech Stack section */}
         <div className="content">
-            <h2>Tech Stack</h2>
+            <h2>Technology Stack</h2>
             <p>
                 Audio Engine Clone was built using HTML, SCSS, JavaScript, and JQuery. Our team of four developers, including myself, Renz, Scott, and Brayden, worked on this project as a Final Project within the Front-End Web Developer 2 course in BCIT's Software Systems Developer program. We utilized slick sliders for the carousel feature, which added a dynamic element to the site's design and functionality.
             </p>
